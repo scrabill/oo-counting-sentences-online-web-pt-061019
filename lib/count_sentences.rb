@@ -29,8 +29,6 @@ class String
 
         self.split(/[!?.]+(?=\s|\z)/).count # + means one or more of these, ?= positive look ahead /z very end of a string
 
-    end
-
     # self.split(".","?","!")
   end
 end
