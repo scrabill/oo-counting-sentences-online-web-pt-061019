@@ -23,7 +23,7 @@ class String
 
     split_with.each do |splitter|
       # array << self.split(splitter)
-      array << self.split(/[!?.]+(?=\s|\z)/) # + means one or more of these, ?= positive look ahead /z very end of a string
+      array << self.split(/[!?.]+(?=\s|\z)/).count # + means one or more of these, ?= positive look ahead /z very end of a string
       counter +=
       puts counter
     end
