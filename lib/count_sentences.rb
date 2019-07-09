@@ -18,7 +18,7 @@ class String
 
   def count_sentences
     split_with = [".","?","!"]
-    counter = 0
+    counter = 1
 
     split_with.each do |splitter|
       array << self.split(splitter)
