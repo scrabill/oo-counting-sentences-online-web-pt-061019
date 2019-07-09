@@ -20,7 +20,7 @@ class String
     # split_with = [".","?","!"]
     # counter = 0
     # array = []
-    # 
+    #
     # split_with.each do |splitter|
     #   # array << self.split(splitter)
     #   self.split(/[!?.]+(?=\s|\z)/).count # + means one or more of these, ?= positive look ahead /z very end of a string
